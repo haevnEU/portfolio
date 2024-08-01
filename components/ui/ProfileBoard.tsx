@@ -57,4 +57,4 @@ export function SocialDock() {
             </Dock>
         </div>
     );
-};
+}
