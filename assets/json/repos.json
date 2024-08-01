@@ -1,0 +1,147 @@
+[
+  {
+    "name": "LogInspector",
+    "url": "https://github.com/haevnEU/LogInspector",
+    "body": "",
+    "img": "https://avatar.vercel.sh/jack",
+    "tags": [
+      "Java",
+      "JavaFX",
+      "JSON"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "JavaUtils",
+    "url": "https://github.com/haevnEU/JavaUtils",
+    "body": "",
+    "img": "https://avatar.vercel.sh/jill",
+    "tags": [
+      "Java",
+      "Java22"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "JavaFxUtils",
+    "url": "https://github.com/haevnEU/JavaFXUtil",
+    "body": "",
+    "img": "https://avatar.vercel.sh/john",
+    "tags": [
+      "Java21",
+      "JavaFX",
+      "css"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "XiLab",
+    "url": "https://github.com/haevnEU/Embedded-Systems-2",
+    "body": "Gegenstand der hier vorgestellten Arbeit ist ein Proof of Concept (PoC) welches sich mit der Informationstechnischen Seite der Thematik von Grünflächenbewässerung und Anwohnereinbindung befasst. Zunächst wird der aktuelle Stand des Projektes vorgestellt, woraus sich ein Konzept entwickelt wie Anlieger in die Bewässerung der Umgebung mit eingebunden werden können. Abschließend wird ein Konzept entwickelt, welches die Software und Hardwareempfehlungen für den Projektpartner bereitstellt. Kein Teil dieser Arbeit ist die genaue Realisierung der Umgebung, namentlich Aufbau der Pflanzbehälter",
+    "img": "https://avatar.vercel.sh/jane",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "Microcontroller",
+      "C++"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Balance Shoe",
+    "url": "https://github.com/haevnEU/Balance-Shoe",
+    "body": "Bei dem Projekt BalanceShoe geht es darum, den Heilungsprozess eines Patienten nach einer Beinoperation zu unterstützen. Durch die erfundene Einlegesohle wird die aktuelle Belastung erfasst und gibt beim Überschreiten dieser einen Warnton. Über die App kann der Patient sein Körpergewicht und seine Belastungsgrenze festlegen. Die aktuelle Belastung wird mittels des Mikrocontrollers an die App kommuniziert und der Warnton ertönt bei Überschreitung auf dem Smartphone.\n\n.",
+    "img": "https://avatar.vercel.sh/jenny",
+    "tags": [
+      "C++",
+      "Microcontroller",
+      "Cross-Platform",
+      "Qt"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Virtual Gaming Room",
+    "url": "https://github.com/haevnEU/VRAR_Project",
+    "body": "Im Rahmen des Moduls \"Virtual and Augmented Reality\" wurde ein kleines Apartment erstellt indem der Spieler sich freibewegen konnte und verschiede Spiele virtuel spielen konnte. Die Spiele wurden in Unity erstellt und konnten mit einem Controller gespielt werden.",
+    "img": "https://avatar.vercel.sh/james",
+    "tags": [
+      "C#",
+      "Unity",
+      "VR/AR"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Command Line Utility",
+    "url": "https://github.com/haevnEU/Command-Line-Utility",
+    "body": "",
+    "img": "https://avatar.vercel.sh/jack",
+    "tags": [],
+    "lines": 0
+  },
+  {
+    "name": "UI-Deisgner",
+    "url": "https://github.com/haevnEU/MMI-GUI_WS18",
+    "body": "Dieses Projekt ist entstanden durch mangelnde Verfügbarkeit von UI Designer die Unabhngig von Sprachen operieren. Die verfügbaren Alternativen sind zu Kostenintensiv.\nGeplannt ist die Erstellung von einfügbaren code in der jeweiligen Zielsprache, mit Skripten soll jede verfügbare Sprache unterstützt werden.\nDieses Projekt unterstützt simple Objekte wie Button, ListView, CheckBox, etc. komplexere Elemente werden nach und nach hinzugefügt.",
+    "img": "https://avatar.vercel.sh/jill",
+    "tags": [
+      "C++",
+      "Qt",
+      "Lua"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Corona App",
+    "url": "https://github.com/haevnEU/CoronaApp",
+    "body": "Ziel der Applikation ist es eine einfach gestaltete Informationsquelle der aktuellen Inzidenzen von Covid-19 Infektionen nach Landkreis und Kreisfreier Stadt zu implementieren.",
+    "img": "https://avatar.vercel.sh/john",
+    "tags": [
+      "React-Native",
+      "JavaScript",
+      "CSS"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Tic Tac Toe",
+    "url": "https://github.com/haevnEU/web-und-multimedia-projekt",
+    "body": "Dieses Projekt ist ein einfaches Tic Tac Toe Spiel, welches in HTML, CSS und JavaScript erstellt wurde. Ein besonderes Augenmerk hierbei ist die Barrierefreiheit. Es wurde im Rahmen des Moduls \"Web- und Multimedia-Projekt\" erstellt.",
+    "img": "https://avatar.vercel.sh/jane",
+    "tags": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "php",
+      "SQL"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Virtual Harddrive",
+    "url": "https://github.com/haevnEU/OS_Project_3",
+    "body": "Im Rahmen des Moduls \"Operating Systems\" sollte ein einfaches Dateisystem simuliert werden, hierraus entwickelte sich jedoch ein Ansatz der Virtualisierung eines Speichermediums.\nDas Projekt wurde in C++ realisiert und benutzt low level Methoden um ein Datenträger anzulegen und zu Manipulieren.",
+    "img": "https://avatar.vercel.sh/jenny",
+    "tags": [
+      "C++",
+      "Unix"
+    ],
+    "lines": 0
+  },
+  {
+    "name": "Waves Mashup",
+    "url": "https://github.com/haevnEU/Distributed-Systems/tree/master",
+    "body": "Die Nutzerin kann auf der Oberfläche des MashUp\nunterschiedliche Zeiträume des Moving Average der\nKryptowährung Waves betrachten. Es ist die Anzeige von\nfolgenden Zeiträumen möglich: 5, 10, 20, 50, 100 und 200\nTage. So bekommt die Nutzerin die Möglichkeit sich\nindividuelle Informationen zu beschaffen. Die Auswahl\nerfolgt über ein Dropdown Menü. Zudem kann sie sich den\nSharpe Ratio Wert der oben genannten Kryptowährung\nanzeigen lassen. Sie kann sich ebenfalls die Stimmung\nbezüglich Waves anschauen. Das kann sie mittels eines\nTortendiagramms machen oder sich die Tweets, die dieses\nStimmungsbild erzeugen, anschauen. Sie kann auch die\nannual percentage yield (APY) verschiedener Währungen im\nVergleich anschauen",
+    "img": "https://avatar.vercel.sh/james",
+    "tags": [
+      "Java",
+      "Spring Boot",
+      "SQL",
+      "API",
+      "Cryptocurrency"
+    ],
+    "lines": 0
+  }
+]

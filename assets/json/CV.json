@@ -1,0 +1,120 @@
+{
+  "skills": [
+    "Microsoft Word",
+    "Excel",
+    "Powerpoint",
+    "Outlook",
+    "Visual Studio",
+    "IntelliJ IDEA",
+    "XCode",
+    "C/C++",
+    "Java",
+    "JavaScript",
+    "TypeScript",
+    "HTML",
+    "CSS",
+    "PHP",
+    "Spring",
+    "Spring-Boot",
+    "Qt",
+    "JavaFX",
+    "Node.js",
+    "React",
+    "React native",
+    "next js",
+    "LUA",
+    "git",
+    "diverse Linux Distribution",
+    "CI/CD",
+    "SQL",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Cassandra",
+    "MariaDB",
+    "NoSQL",
+    "Jenkins",
+    "maven",
+    "gradle",
+    "Docker",
+    "Docker Compose",
+    "Jira",
+    "Unit-Testing"
+  ],
+  "work": [
+    {
+      "entry": "2022",
+      "exit": "2024",
+      "header": "dbh Logistics IT AG",
+      "text": "Werkstudent Java Developer",
+      "projects": [
+        "Zollsoftware. Server und Clientseitige Erweiterung von Funktionalitäten sowie Umsetzung von Regeln der Zollhandbücher"
+      ]
+    },
+    {
+      "entry": "2020",
+      "exit": "2022",
+      "header": "StepStone GmbH",
+      "text": "Werkstudent Java Developer",
+      "projects": [
+        "Weiterentwicklung und Wartung des internen Testsystem zur Sicherstellung von Arbeitsabläufen",
+        "Dockerisierung der Testumgebung",
+        "Entwicklung einer Urlaubstage Microservice"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "entry": "2017",
+      "exit": "now",
+      "header": "Hochschule Ruhr-West",
+      "text": "Angewandte Informatik (B.Sc)"
+    },
+    {
+      "entry": "2014",
+      "exit": "2016",
+      "header": "Hans-Sachs-Berufskolleg",
+      "text": "Allgemeine Hochschulreife"
+    },
+    {
+      "entry": "2011",
+      "exit": "2014",
+      "header": "Hans-Sachs-Berufskolleg",
+      "text": "Ausbildung zum Informationstechnischer Assistent"
+    },
+    {
+      "entry": "2011",
+      "exit": "2014",
+      "header": "Hans-Sachs-Berufskolleg",
+      "text": "Fachhochschulreife"
+    }
+  ],
+  "languages": [
+    "German",
+    "English"
+  ],
+  "interests": [
+    "Microcontroller",
+    "Embedded Systems",
+    "IoT",
+    "Distributed Systems",
+    "Gaming",
+    "Programming",
+    "Enjoys spending time with dogs"
+  ],
+  "contacts": [],
+  "projects": [
+  ],
+  "github": "https://github.com/haevnEU",
+  "linkedIn": "https://www.linkedin.com/in/nils-milewski-26b943252/",
+  "xing": "https://www.xing.com/profile/Nils_Milewski2",
+  "twitter": "",
+  "facebook": "",
+  "instagram": "",
+  "youtube": "",
+  "about": "",
+  "name": "Nils Milewski",
+  "title": "",
+  "email": "",
+  "birth": "1994"
+}
