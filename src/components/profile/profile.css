@@ -1,0 +1,32 @@
+.profileContainer{
+    border: 1px solid var(--bg-light);
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: var(--bg-dark);
+    color: var(--text);
+    width: 80%;
+    margin: 0 auto;
+}
+
+span{
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.socialLinks{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.twitterLogo{
+    color: var(--twitterLogo);
+}
+
+.twitterBG{
+    color: var(--twitterBG);
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,36 @@
+.cardContainer{
+    background-color: var(--primary);
+    min-width: 200px;
+    border: 1px solid var(--primary);
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.cardContainer:hover{
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+.cardDivider{
+    width: 80%;
+    height: 1px;
+    background-color: silver;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    word-break: break-all;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    white-space: normal;
+}
+
+.cardContent{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text);
+}
+

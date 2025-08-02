@@ -1,0 +1,40 @@
+.pulsingGlow {
+    border: 2px solid var(--glow-blue);
+    animation: pulseGlow 2s infinite alternate;
+    border-radius: 12px;
+}
+
+.pulsingGlowBlue {
+    box-shadow: 0 0 6px 2px var(--glow-blue), 0 0 12px 4px var(--glow-blue);
+}
+
+.pulsingGlowPurple {
+    box-shadow: 0 0 6px 2px var(--glow-purple), 0 0 12px 4px var(--glow-purple);
+}
+
+.pulsingGlowGreen {
+    box-shadow: 0 0 6px 2px var(--glow-green), 0 0 12px 4px var(--glow-green);
+}
+
+.pulsingGlowRed {
+    box-shadow: 0 0 6px 2px var(--glow-red), 0 0 12px 4px var(--glow-red);
+}
+
+.pulsingGlowDefault {
+    box-shadow: 0 0 6px 2px var(--glow-blue), 0 0 12px 4px var(--glow-blue);
+}
+
+.pulsingGlowYellow {
+    box-shadow: 0 0 6px 2px var(--glow-yellow), 0 0 12px 4px var(--glow-yellow);
+}
+
+@keyframes pulseGlow {
+    0% {
+        box-shadow: 0 0 3px 1px var(--glow-blue), 0 0 6px 2px var(--glow-blue);
+        border-color: var(--glow-blue);
+    }
+    100% {
+        box-shadow: 0 0 12px 4px var(--glow-blue), 0 0 24px 8px var(--glow-blue);
+        border-color: var(--glow-blue);
+    }
+}

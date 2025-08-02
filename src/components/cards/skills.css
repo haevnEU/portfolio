@@ -1,0 +1,45 @@
+.skillElement{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+    height: 32px;
+}
+.techEntryContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+
+}
+.databaseEntryContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+.h3{
+    width: 100%;
+    text-align: center;
+}
+
+.container{
+    border-radius: 15px;
+    background-color: var(--bg-dark);
+    color: var(--text);
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.label{
+    min-width: 30%;
+    text-align: left;
+
+}
+
+.bar_bg{
+    width: 20%;
+    height: 12px;
+    background: #eee;
+    border-radius: 6px;
+    margin-top: 4px;
+}

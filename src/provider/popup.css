@@ -1,0 +1,15 @@
+.popup {
+    position: fixed;
+    top: 32px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 300px;
+    max-width: 90vw;
+    background: var(--bg-light);
+    color: var(--text);
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    padding: 24px 32px;
+    z-index: 99999;
+    pointer-events: auto;
+}
