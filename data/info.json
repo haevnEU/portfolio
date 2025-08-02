@@ -7,22 +7,53 @@
     "xing": "https://xing.com/"
   },
   "contact": {
-    "email": "",
+    "email": "test@example.com",
     "name": "Nils",
     "familyName": "Milewski",
     "location": "Germany",
     "birthdate": "1994-12-12"
   },
   "skills": {
-    "languages": [
-      "Java", "C", "C++", "C#", "Kotlin", "JavaScript", "TypeScript", "PHP", "Shell", "HTML", "CSS", "Lua"
-    ],
-    "frameworks": [
-      "Spring", "Spring Boot", "Node.js", "React", "React Native", "Next.js", "JavaFX", "Qt"
-    ],
+    "frontend": {
+      "languages": [
+        { "name": "JavaScript", "icon": "js.svg", "level": 7 },
+        { "name": "TypeScript", "icon": "ts.svg", "level": 7},
+        { "name": "HTML", "icon": "html.svg", "level": 7},
+        { "name": "CSS", "icon": "css.svg", "level": 6 }
+      ],
+      "frameworks": [
+        { "name": "React", "icon": "react.svg", "level": 7 },
+        { "name": "React Native", "icon": "react.svg", "level": 5 },
+        { "name": "Next.js", "icon": "next.svg", "level": 5 },
+        { "name": "JavaFX", "icon": "java.svg", "level": 6  },
+        { "name": "Qt", "icon": "qt.svg", "level": 5 }
+      ]
+    },
+    "backend": {
+      "languages": [
+        { "name": "Java", "icon": "java.svg", "level": 10 },
+        { "name": "C", "icon": "c.svg", "level": 9 },
+        { "name": "C++", "icon": "cpp.svg", "level": 8 },
+        { "name": "C#", "icon": "cs.svg", "level": 5 },
+        { "name": "Kotlin", "icon": "kotlin.svg", "level": 5 },
+        { "name": "PHP", "icon": "php.svg", "level": 8 },
+        { "name": "Shell", "icon": "shell.svg", "level": 7 },
+        { "name": "Lua", "icon": "lua.svg", "level": 4 }
+      ],
+      "frameworks": [
+        { "name": "Spring", "icon": "spring.svg", "level": 9 },
+        { "name": "Spring Boot", "icon": "spring_boot.svg", "level": 9 },
+        { "name": "Node.js", "icon": "node.svg", "level": 8 }
+      ]
+    },
     "databases": [
-      "MySQL", "PostgreSQL", "MongoDB", "SQLite"
+      { "name": "MariaDB", "icon": "maria.svg", "level": 9 },
+      { "name": "MongoDB", "icon": "mongo.svg", "level": 8 },
+      { "name": "MySQL", "icon": "mysql.svg", "level": 9 },
+      { "name": "PostgreSQL", "icon": "postgres.svg", "level": 9 },
+      { "name": "SQLite", "icon": "sqlite.svg", "level": 8 }
     ],
+
     "tools": [
       "Git", "GitHub", "GitLab", "Docker", "Jenkins", "Oh My Zsh", "Visual Studio Code", "IntelliJ IDEA",
       "WebStorm", "Postman", "GCC", "Clang", "Make", "npm", "Yarn",
@@ -32,7 +63,6 @@
       "Docker Tools", "Cron Tools"
     ],
     "cloud": [
-      "AWS", "Azure", "Google Cloud"
     ],
     "technologies": [
       "REST", "GraphQL", "Microservices", "gRPC", "WebSockets", "OAuth2", "JWT", "OpenAPI"
@@ -41,7 +71,12 @@
       "Agile", "Scrum", "Kanban", "Jira", "CI/CD"
     ],
     "operating_systems": [
-      "Ubuntu", "Debian", "SUSE", "Windows", "macOS", "Linux"
+      { "name": "Ubuntu", "icon": "ubuntu.svg", "level": 9 },
+      { "name": "Debian", "icon": "debian.svg", "level": 9 },
+      { "name": "SUSE", "icon": "suse.svg", "level": 7 },
+      { "name": "Windows", "icon": "windows.svg", "level": 9 },
+      { "name": "macOS", "icon": "macOS.svg", "level": 9 },
+      { "name": "Linux", "icon": "linux.svg", "level": 9 }
     ],
     "languages_spoken": [
       "German", "English"
