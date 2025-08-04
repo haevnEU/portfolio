@@ -68,7 +68,6 @@ export function ProjectCard(props: Readonly<ProjectCardProps>) {
                 <BubbleContainer>
                     {props.children.technologies}
                 </BubbleContainer>
-
             </div>
         </Card>
 

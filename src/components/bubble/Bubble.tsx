@@ -7,7 +7,7 @@ type BubbleProps = {
 };
 
 export const Bubble: React.FC<BubbleProps> = ({ text, onClick }) => (
-    <div className={"bubble"} style={{background: stringToColor(text)}}
+    <div className={"bubble"} style={{background: stringToColor(text), cursor: (onClick ? "pointer" : "default")}}
         onClick={onClick}
     >
         {text}
@@ -17,7 +17,7 @@ export const Bubble: React.FC<BubbleProps> = ({ text, onClick }) => (
 export const BubbleContainer: React.FC<{ children: string[] }> = ({ children }) => (
     <div className={"bubbleContainer"}>
         {children.map((text, index) => (
-            <Bubble key={index} text={text} />
+            <Bubble key={index} text={text}/>
         ))}
     </div>
 );

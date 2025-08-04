@@ -7,11 +7,12 @@
     "xing": "https://xing.com/"
   },
   "contact": {
-    "email": "test@example.com",
+    "email": "nimile.portfolio@outlook.de",
     "name": "Nils",
     "familyName": "Milewski",
     "location": "Germany",
-    "birthdate": "1994-12-12"
+    "birthdate": "1994-12-12",
+    "cvUrl": ""
   },
   "skills": {
     "frontend": {

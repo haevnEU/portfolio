@@ -30,3 +30,9 @@ span{
     width: 32px;
     height: 32px;
 }
+
+.centerV{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

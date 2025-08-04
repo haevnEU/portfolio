@@ -38,6 +38,12 @@ function ProfileSection(props: ProfileSectionProps) {
                 <span>In my free time, I also love spending quality moments with my dog, who always brings joy and inspiration to my life.</span>
                 <br/>
                 <div className={"socialLinks"}>
+                    <span className={"centerV"}>Download my CV</span>
+                    {createSocialLink("Download my CV", "cv.svg", props.info.contact.cvUrl)}
+
+                </div>
+                <br/>
+                <div className={"socialLinks"}>
                     {createSocialLink("GitHub", "github-mark.svg", props.info.social.github)}
                     {createSocialLink("Discord", "Discord-Symbol-Blurple.svg", props.info.social.discord)}
                     {createSocialLink("X (Formerly Twitter)", "X_Dark.svg", props.info.social.twitter, true)}

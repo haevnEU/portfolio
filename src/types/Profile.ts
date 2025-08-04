@@ -3,5 +3,6 @@ export type Profile = {
     name: string;
     familyName: string;
     location: string;
-    birthdate: Date;
+    birthdate: string;
+    cvUrl: string;
 }
