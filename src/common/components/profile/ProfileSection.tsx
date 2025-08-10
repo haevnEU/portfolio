@@ -1,4 +1,4 @@
-import React, {useContext, useEffect, useState} from 'react';
+import React, {useContext} from 'react';
 import './profile.css';
 import {Info} from "../../types/Info";
 import {getIcon, getXIcon} from "../../utils/ResourceUtils";

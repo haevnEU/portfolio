@@ -1,5 +1,6 @@
 import React, { createContext, useEffect, useState } from 'react';
 import CButton from "../components/button/button";
+import Icon from "../components/icon/Icon";
 
 interface ThemeContextType {
     mode: 'light' | 'dark';
@@ -34,23 +35,17 @@ export const ThemeProvider: React.FC<{ children: React.ReactNode }> = ({ childre
 
     return (
         <ThemeContext.Provider value={{ mode, toggleMode }}>
-            <div style={{ position: 'fixed', top: "10px", right: "10px", zIndex: 1000 }}>
+            <div style={{ position: 'fixed', top: "10px", right: "60px", zIndex: 1000 }}>
                 <div style={{
                     width: '50px',
                     height: '50px',
                     borderRadius: '50%',
-                    backgroundColor: mode === 'light' ? '#f0e68c' : '#2c3e50',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     cursor: 'pointer'
                 }} onClick={toggleMode}>
-                    {mode === 'light' ? (
-                        <span role="img" aria-label="sun">☀️</span>
-                    ) : (
-                        <span role="img" aria-label="moon">🌙</span>
-                    )}
-
+                    <Icon src={"themeswitcher.svg"} />
                 </div>
             </div>
             {children}

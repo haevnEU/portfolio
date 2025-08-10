@@ -8,6 +8,14 @@ export const PopupContext = createContext<PopupContextType>({
     showPopup: () => {},
 });
 
+export const usePopupContext = () => {
+    const context = React.useContext(PopupContext);
+    if (!context) {
+        throw new Error('getPopupContext must be used within a PopupProvider');
+    }
+    return context;
+}
+
 export const PopupProvider = ({ children }: { children: ReactNode }) => {
     const [popup, setPopup] = useState<string | null>(null);
     const [visible, setVisible] = useState(false);

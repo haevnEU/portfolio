@@ -1,17 +1,18 @@
 import React, {JSX, useContext, useEffect, useState} from 'react';
-import './App.css';
-import {IconButton} from "../../components/button/button";
-import ProfileSection from "../../components/profile/ProfileSection";
-import SkillsSection from "../../components/cards/skills";
-import DatabseSection from "../../components/cards/DatabseStack";
-import {CardElement, createCardElement} from "../../types/CardElement";
-import {PopupContext} from "../../provider/PopupProvider";
-import HobbySection from "../../components/cards/Hobby";
-import {IndexIndicator, ScrollProvider, useScrollContext} from "../../provider/ScrollProvider";
-import Contact from "../../components/cards/Contact";
+import './WebApp.css';
+import {IconButton} from "../../common/components/button/button";
+import ProfileSection from "../../common/components/profile/ProfileSection";
+import SkillsSection from "../../common/components/cards/skills";
+import DatabseSection from "../../common/components/cards/DatabseStack";
+import {CardElement, createCardElement} from "../../common/types/CardElement";
+import {PopupContext} from "../../common/provider/PopupProvider";
+import HobbySection from "../../common/components/cards/Hobby";
+import {IndexIndicator, ScrollProvider, useScrollContext} from "../../common/provider/ScrollProvider";
+import Contact from "../../common/components/cards/Contact";
 import data from '../../data/info.json';
+import Projects from "../Projects/Projects";
 
-export default function App() {
+export default function WebApp() {
     const [elements, setElements] = useState<CardElement[]>([]);
 
     useEffect(() => {
@@ -37,11 +38,12 @@ export default function App() {
 
 
     return (
-        <ScrollProvider maxSize={elements.length}>
-
-            <ScrollableChild elements={elements}/>
-            <IndexIndicator />
-        </ScrollProvider>
+        <Projects />
+        // <ScrollProvider maxSize={elements.length}>
+        //
+        //     <ScrollableChild elements={elements}/>
+        //     <IndexIndicator />
+        // </ScrollProvider>
     );
 }
 

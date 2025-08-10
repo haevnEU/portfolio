@@ -1,50 +1,51 @@
-import React, {useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './views/App/App';
+import App from './web/App/WebApp';
 import reportWebVitals from './reportWebVitals';
-import { ThemeProvider } from './provider/ThemeProvider';
-import {PopupProvider} from "./provider/PopupProvider";
-import Projects from "./views/Projects/Projects";
-import CV from './views/CV/CV';
-import Button from "./components/button/button";
+import {ThemeProvider} from './common/provider/ThemeProvider';
+import {PopupProvider, usePopupContext} from "./common/provider/PopupProvider";
+import Projects from "./web/Projects/Projects";
+import CV from './web/CV/CV';
+import Button from "./common/components/button/button";
+import MobileApp from "./mobile/MobileApp/MobileApp";
+import WebApp from "./web/App/WebApp";
+import {isMobile} from "./common/utils/ResourceUtils";
 
 const Main: React.FC = () => {
-    const pages = [
-        <App />,
-        <Projects />,
-        <CV />
-    ];
+    const [mobile, setMobile] = useState<boolean>(isMobile());
+    const {showPopup} = usePopupContext();
 
-    const [currentPage, setCurrentPage] = useState(0);
-    return (
-        <div>
+    useEffect(() => {
+        const handleResize = () => {
+            if (mobile !== isMobile()) {
+                showPopup("You're switching to " + (isMobile() ? "mobile" : "web") + " mode", 2000);
+            }
+            setMobile(isMobile());
+        };
 
-            <div>
-                <Button onClick={()=>setCurrentPage(0)}>App</Button>
-                <Button onClick={()=>setCurrentPage(1)}>Projects</Button>
-                <Button onClick={()=>setCurrentPage(2)}>CV</Button>
-            </div>
-            <div>
-                {
-                    pages[currentPage]
-                }
-            </div>
-        </div>
+        window.addEventListener('resize', handleResize);
+    }, [mobile]);
+
+    return (<>
+            {
+                mobile ? <MobileApp/> : <WebApp/>
+            }
+        </>
     );
 };
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+    document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-      <ThemeProvider>
-          <PopupProvider>
-                  <Main />
-          </PopupProvider>
-      </ThemeProvider>
-  </React.StrictMode>
+    <React.StrictMode>
+        <ThemeProvider>
+            <PopupProvider>
+                <Main/>
+            </PopupProvider>
+        </ThemeProvider>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

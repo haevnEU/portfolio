@@ -87,130 +87,130 @@
     "projects": [
       {
         "name": "Backuper",
-        "description": "A reliable backup solution for secure and efficient management of files and directories.",
+        "description": "Das in Java geschriebene Tool erstellt Sicherungskopien basierend auf einer Definitionsdatei.",
         "url": "https://github.com/haevnEU/Backuper",
         "technologies": ["Java"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "Command-Line-Utility",
-        "description": "A comprehensive suite of utilities to streamline command-line application development in C++.",
+        "description": "Eine Bibliothek für die Entwicklung von Projekten in C++",
         "url": "https://github.com/haevnEU/Command-Line-Utility",
         "technologies": ["C++", "Make"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "JavaFXUtil",
-        "description": "A versatile JavaFX library for developing modern and responsive desktop applications.",
+        "description": "Eine Utility Bibliothek für JavaFX Anwendung.",
         "url": "https://github.com/haevnEU/JavaFXUtil",
         "technologies": ["Java", "JavaFX"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "JavaUtils",
-        "description": "A utility framework providing essential functionalities for professional Java application development.",
+        "description": "Eine Bibliothek häufig genutzter Methoden für Java Projekte.",
         "url": "https://github.com/haevnEU/JavaUtils",
         "technologies": ["Java"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "LogInspector",
-        "description": "A powerful tool for the analysis and visualization of custom log files, originally part of JavaUtils.",
+        "description": "Ein Log-Analyse-Tool für das JavaUtils sowie C++ Logger Projekt.",
         "url": "https://github.com/haevnEU/LogInspector",
         "technologies": ["Java", "JavaFX", "CSS"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "Logger",
-        "description": "A lightweight logging library for C++ applications, enabling structured and efficient log management.",
+        "description": "Ein einfacher Logger für C++ Anwendungen, basierend auf einem eigenen Format.",
         "url": "https://github.com/haevnEU/Logger",
         "technologies": ["C++", "Make"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "Warcraft-Tools",
-        "description": "A specialized toolkit designed to enhance the World of Warcraft gaming experience.",
+        "description": "Sammlung von Tools für das Spiel World of Warcraft.",
         "url": "https://github.com/haevnEU/Warcraft-Tools",
         "technologies": ["Java", "JavaFX"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": true
       },
       {
         "name": "Balance-Shoe",
-        "description": "An innovative insole system that measures weight, transmits data via Bluetooth to smartphones, and provides overload notifications.",
+        "description": "Eine Smarte-Einlegesohle die vor überlastung des Beins helfen soll.",
         "url": "https://github.com/haevnEU/Balance-Shoe",
         "technologies": ["C", "C++", "ESP32", "Qt", "Make", "QMake"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "CoronaApp",
-        "description": "A mobile application for comprehensive tracking and management of COVID-19 related data.",
+        "description": "Eine Mobile-Anwendung welche Aktuelle Informationen inklusive Inzidenzwerte für eine Region innerhalb Deutschlands anzeigt.",
         "url": "https://github.com/haevnEU/CoronaApp",
         "technologies": ["JavaScript", "React", "React Native", "Next.js", "CSS", "RESTful"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "Distributed Systems",
-        "description": "A platform integrating multiple crypto APIs and the X (formerly Twitter) API to present real-time cryptocurrency information.",
+        "description": "Ein Projekt welches mehrere Hintergrund APIs in einer Anwendung bündelt um eine Krypto-Währung zu verfolgen",
         "url": "https://github.com/haevnEU/Distributed-Systems/tree/master/project",
         "technologies": ["Java", "Spring", "Spring Boot", "RESTful"],
-        "role": "Maintainer, Contributor",
+        "role": ["Maintainer", "Contributor"],
         "active": false
       },
       {
         "name": "Embedded-System-2",
-        "description": "A district-wide automated plant watering system utilizing embedded and cloud technologies.",
+        "description": "Das Projekt stellt die Hard- sowie Software für das Wässerung-System xiLab bereit.",
         "url": "https://github.com/haevnEU/Embedded-Systems-2",
         "technologies": ["C", "C++", "ESP32", "Java", "TypeScript", "Spring", "Spring Boot", "Node.js", "React", "CSS", "RESTful"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "FPT-Ubung1",
-        "description": "A feature-rich MP3 player with a graphical interface and remote playback capabilities.",
+        "description": "Ein MP3 Player mit einer grafischen Oberfläche, der Musikdateien abspielen kann, unter anderem über eine Remote Procedure Call (RPC) Schnittstelle.",
         "url": "https://github.com/haevnEU/FPT-Ubung1",
         "technologies": ["Java", "JavaFX", "RPC"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "MMI-GUI_WS18",
-        "description": "A flexible UI designer supporting multiple languages and extensibility via Lua scripts.",
+        "description": "Ein in C++ geschriebener GUI-Editor, der eine einfache grafische Oberfläche für die Erstellung von Benutzeroberflächen bietet.",
         "url": "https://github.com/haevnEU/MMI-GUI_WS18",
         "technologies": ["C++", "Qt", "Lua", "QMake"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "OS_Project",
-        "description": "A simulation tool for creating, partitioning, and managing virtual disks through a terminal interface.",
+        "description": "Simulation einer Festplatte/CD inklusive Dateisystem und kleiner Shell für die Benutzerinteraktion.",
         "url": "https://github.com/haevnEU/OS_Project_3",
         "technologies": ["C", "C++", "Make", "Qt", "QMake"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "VRAR_Project",
-        "description": "A VR game set in a virtual apartment, offering interactive objects and a variety of mini-games.",
+        "description": "Ein Virtual Reality Spiel bestehend aus einem Apartment mit mehreren Räumen und Minispiele.",
         "url": "https://github.com/haevnEU/VRAR_Project",
         "technologies": ["C#", "Unity", "VR"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       },
       {
         "name": "Web-und-Multimedia-Projekt",
-        "description": "A classic Tetris implementation using pure HTML, CSS, and JavaScript.",
+        "description": "Klassische Tetris Anwendung in HTML, JavaScript sowie CSS.",
         "url": "https://github.com/haevnEU/web-und-multimedia-projekt",
         "technologies": ["HTML", "CSS", "JavaScript"],
-        "role": "Maintainer",
+        "role": ["Maintainer", "Developer"],
         "active": false
       }
     ],

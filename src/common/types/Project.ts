@@ -1,9 +1,10 @@
 export type Project = {
     readme?: string;
     name: string;
-    description: string;
     url: string;
+    description: string;
     technologies: string[];
-    role: string;
+    role: string[];
     active: boolean;
+    screenshots?: string[];
 }

@@ -10,7 +10,7 @@ type ScrollContextType = {
 interface scrollProviderProps {
     children: React.ReactNode;
     maxSize: number;
-};
+}
 
 export const ScrollContext = createContext<ScrollContextType>({
     index: 0,
